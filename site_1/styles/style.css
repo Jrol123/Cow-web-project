@@ -1,0 +1,58 @@
+:root {
+    background: #252525;
+    text-align: center;
+    --width-primary: 250px;
+    --size-font: 22px
+}
+/*ТЕКСТ*/
+
+body{
+     /*display: flex;*/
+     /*justify-content: center;*/
+    flex-direction: column;
+    /*width: var(--width-primary);*/
+ }
+header img{
+    width: var(--width-primary);
+}
+header{
+    color: #a5e3ff;
+    text-align: center;
+    /*width: var(--width-primary);*/
+}
+header p{
+    width: var(--width-primary);
+    color: #a5e3ff;
+    font-size: 16px;
+}
+/*Доминирует верхняя позиция*/
+/*Почему-то невозможно ограничить с помощью width. Конфликует с justify-conent*/
+
+p{
+    color: #ff5959;
+}
+article{
+    color: #ffff4b;
+    font-size: var(--size-font);
+}
+
+/* ССЫЛКИ*/
+
+a {
+    /*text-decoration: none;*/
+    outline: none;
+}
+a:link{
+    color: inherit;
+}
+a:visited{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+header h1 a:visited:hover{
+    background: #ff5959;
+}
+header h1 a:hover{
+    background: #7b9167;
+}
