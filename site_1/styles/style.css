@@ -1,34 +1,28 @@
 :root {
     background: #252525;
+    color: #a5e3ff;
     text-align: center;
     --width-primary: 250px;
     --size-font: 22px
 }
 /*ТЕКСТ*/
-
-body{
-     /*display: flex;*/
-     /*justify-content: center;*/
-    flex-direction: column;
-    /*width: var(--width-primary);*/
- }
-header img{
-    width: var(--width-primary);
-}
-header{
-    color: #a5e3ff;
+.limited_center_header{
+    display: flex;
+    justify-content: center;
     text-align: center;
-    /*width: var(--width-primary);*/
-}
-header p{
     width: var(--width-primary);
-    color: #a5e3ff;
-    font-size: 16px;
 }
-/*Доминирует верхняя позиция*/
-/*Почему-то невозможно ограничить с помощью width. Конфликует с justify-conent*/
 
-p{
+header p{
+    font-size: 12px;
+}
+header img{
+    width: calc(var(--width-primary)*(3.5/5));
+}
+
+/*Доминирует *нижний* уровень (чисто p  > header p) позиция*/
+
+main p{
     color: #ff5959;
 }
 article{
@@ -39,7 +33,6 @@ article{
 /* ССЫЛКИ*/
 
 a {
-    /*text-decoration: none;*/
     outline: none;
 }
 a:link{
