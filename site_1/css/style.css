@@ -2,11 +2,25 @@
     background: #252525;
     color: #a5e3ff;
     --width-primary: 300px;
-    --size-font-header: 23px
+    --size-font-header: 30px;
+    --additional-size: 10px
 }
 /*ТЕКСТ*/
 header{
     text-align: center;
+}
+
+#start-h{
+    display: flex;
+    justify-content: center;
+}
+#start-h h1{
+    width: var(--width-primary);
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    color: #a5e3ff;
+    font-size: calc(var(--size-font-header) + var(--additional-size));
 }
 
 header p{
@@ -16,7 +30,7 @@ header p{
 }
 
 header img{
-    width: calc(var(--width-primary)*(3.5/5));
+    width: calc(var(--size-font-header) * 10);
 }
 
 .limited_center_header{
@@ -30,15 +44,17 @@ header img{
     justify-content: center;
 }
 
-header h1{
-    /*font-size: var(--size-font-header);*/
-    width: var(--width-primary);
-}
+/*Если подключить #start-h к .limited, сразу начинает глючить размер*/
+
+/*header h1{*/
+/*    !*font-size: var(--size-font-header);*!*/
+/*    width: var(--width-primary);*/
+/*}*/
 
 #final-h{
     margin: 50px 0;
     top: 20px;
-    font-size: calc(var(--size-font-header) + 10px)
+    font-size: calc(var(--size-font-header) + var(--additional-size));
 }
 /*Почему-то при применении margin-left в .limited он не срабатывает*/
 
@@ -52,7 +68,7 @@ article img{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: calc(var(--width-primary) * 3/2);
+    width: calc(var(--size-font-header) * 10 * 3/2)
 }
 
 /*article#first-art{*/
@@ -62,12 +78,12 @@ article img{
 /*}*/
 
 .article-heading{
-    font-size: calc(var(--size-font-header) - 5px + 3px);
+    font-size: calc(var(--size-font-header) - 10px + 5px);
     font-weight: 800;
 }
 section{
     font-family: 'Inter', sans-serif;
-    font-size: calc(var(--size-font-header) - 5px);
+    font-size: calc(var(--size-font-header) - 10px);
     color: white;
     line-height: 1.7;
     margin: 30px 35px;
