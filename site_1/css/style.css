@@ -1,0 +1,95 @@
+:root {
+    background: #252525;
+    color: #a5e3ff;
+    --width-primary: 300px;
+    --size-font-header: 23px
+}
+/*ТЕКСТ*/
+header{
+    text-align: center;
+}
+
+header p{
+    font-family: 'Exo 2', sans-serif;
+    font-style: italic;
+    font-size: 12px;
+}
+
+header img{
+    width: calc(var(--width-primary)*(3.5/5));
+}
+
+.limited_center_header{
+    text-align: center;
+    font-family: 'Exo 2', sans-serif;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    color: #a5e3ff;
+    font-size: var(--size-font-header);
+    display: flex;
+    justify-content: center;
+}
+
+header h1{
+    /*font-size: var(--size-font-header);*/
+    width: var(--width-primary);
+}
+
+#final-h{
+    margin: 50px 0;
+    top: 20px;
+    font-size: calc(var(--size-font-header) + 10px)
+}
+/*Почему-то при применении margin-left в .limited он не срабатывает*/
+
+/*Доминирует *нижний* уровень (чисто p  > header p) позиция*/
+
+article{
+    border: 5px solid #525252;
+    margin: 10px 25px;
+}
+article img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(var(--width-primary) * 3/2);
+}
+
+/*article#first-art{*/
+/*    position: relative;*/
+/*    left: 100px;*/
+/*    top: 100px*/
+/*}*/
+
+.article-heading{
+    font-size: calc(var(--size-font-header) - 5px + 3px);
+    font-weight: 800;
+}
+section{
+    font-family: 'Inter', sans-serif;
+    font-size: calc(var(--size-font-header) - 5px);
+    color: white;
+    line-height: 1.7;
+    margin: 30px 35px;
+}
+
+
+/* ССЫЛКИ*/
+
+a {
+    outline: none;
+}
+a:link{
+    color: inherit;
+}
+a:visited{
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+}
+header h1 a:visited:hover{
+    background: #ff5959;
+}
+header h1 a:hover{
+    background: #7b9167;
+}
