@@ -4,32 +4,86 @@
 	<meta charset="UTF-8">
 	<title>Факты о коровах</title>
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon"/>
-	<link href="styles/style.css" rel="stylesheet" type="text/css" />
+	<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Exo+2:wght@300&family=Inter&display=swap" rel="stylesheet">
 </head>
 <body>
 	<header>
+<!--	Костыль, но иначе не смог-->
 		<div class="limited_center_header">
 			<h1>Топ 3 факта о <a href="https://en.wikipedia.org/wiki/Cattle" target="_blank">коровах!</a></h1>
 		</div>
-<!--		Костыль, но иначе не смог-->
-		<a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" target="_blank"><img src="img/Cow.png" alt="lofi_cow.png"></a>
+		<a href="https://www.youtube.com/watch?v=jfKfPfyJRdk" target="_blank"><img src="img/lofi_cow.png" alt="lofi_cow.png"></a>
 		<p>А если вам не нравятся коровы, то идите вон с моей странички!</p>
 	</header>
 	<main>
-		<article>
-			<section>
-				text1
+		<article id="first-art">
+			<header>
+				<div class="limited_center_header">
+					<h1>
+						Факт №1
+					</h1>
+				</div>
+			</header>
+			<section class="article-heading">
+				Коровы очень наблюдательны.
 			</section>
 			<section>
-				text2
+				Если территорию выпаса огородить проволокой и пустить по ней слабый электрический ток, чтобы коровы не разбежались, (так называемый электропастух),
+				то когда хоть одна корова подойдет, получит слабый удар током и отскочит от проволоки, другие коровы уже не будут подходить к проволоке и пытаться через неё пройти!
 			</section>
-			<p>
-				text3
-			</p>
+			<section>
+				Мне кажется, это показатель того, что животные на самом деле не так уж глупы, как мы, в большинстве своём, думаем.
+			</section>
 		</article>
-		<p>
-			text4
-		</p>
+		<article>
+			<header>
+				<div class="limited_center_header">
+					<h1>
+						Факт №2
+					</h1>
+				</div>
+			</header>
+			<section class="article-heading">
+				Коровы общаются между собой мычанием.
+			</section>
+			<section>
+				Нам кажется, что коровы мычат одинаково, но это не так!<br>
+				Зоологи насчитали в коровьем мычании <b>11</b> различных звучаний:<br> Зов на дойку, оповещение о возвращении с пастбища, призыв теленка или выражение беспокойства — на самом деле это действительно различные звуки.
+			</section>
+			<section>
+				Не правда ли потрясающе, что <b><i>каждый</i></b> живой организм стремится к общению, даже, в какой-то мере, растения!
+			</section>
+		</article>
+		<article>
+			<header>
+				<div class="limited_center_header">
+					<h1>
+						Факт №3
+					</h1>
+				</div>
+			</header>
+			<img src="img/cool_cow.png" alt="cool_cow">
+			<section class="article-heading">
+				Коровы крутые!
+			</section>
+			<section>
+				Тому, кто ни разу не видел это грациозное создание в природе, сложно будет понять, почему они такие класные.<br>
+				Но если вы видели корову хоть раз, то можете себе представить, какие же они на самом деле мягкие, но при этом очень <a href="https://ru.wikipedia.org/wiki/Тихоходки" target="_blank">крупные</a> и <u>мощные</u> создания!
+<!--				Запутанность создана специально-->
+			</section>
+			<section>
+				И хотя мы их <i>приручили</i> и получаем от них много полезного, они всё ещё вселяют в меня неподдельный трепет при приближении ко мне.
+			</section>
+		</article>
 	</main>
+	<footer>
+		<h1 class="limited_center_header" id="final-h">
+			Спасибо за внимание!
+		</h1>
+	</footer>
 </body>
 </html>
