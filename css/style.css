@@ -1,6 +1,7 @@
 :root {
     background: #252525;
     color: #a5e3ff;
+    --sub-color: #ffffff;
     --width-primary: 300px;
     --size-font-header: 30px;
     --additional-size: 10px
@@ -19,7 +20,6 @@ header{
     font-family: 'Exo 2', sans-serif;
     letter-spacing: 1px;
     line-height: 1.1;
-    color: #a5e3ff;
     font-size: calc(var(--size-font-header) + var(--additional-size));
 }
 
@@ -39,7 +39,6 @@ header img{
     font-family: 'Exo 2', sans-serif;
     letter-spacing: 1px;
     line-height: 1.1;
-    color: #a5e3ff;
     font-size: var(--size-font-header);
     display: flex;
     justify-content: center;
@@ -85,7 +84,7 @@ article img{
 section{
     font-family: 'Inter', sans-serif;
     font-size: calc(var(--size-font-header) - 10px);
-    color: white;
+    color: var(--sub-color);
     line-height: 1.7;
     margin: 30px 35px;
 }
