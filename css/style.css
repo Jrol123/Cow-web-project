@@ -28,6 +28,7 @@ header p{
     font-style: italic;
     font-size: 12px;
 }
+/*Или лучше использовать id ?*/
 
 header img{
     width: calc(var(--size-font-header) * 10);
