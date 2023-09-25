@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="acf2e611-6132-467b-9e07-3a0cc2933355" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="acf2e611-6132-467b-9e07-3a0cc2933355" name="Changes" comment="Переделано взаимодействие с цветом.&#10;&#10;Теперь все цвета доступны из root">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/site_1.zip" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,6 +43,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
     &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;D:/GitHub/Web_projects/Cow-web-project&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -72,7 +73,36 @@
       <workItem from="1695459214453" duration="85000" />
       <workItem from="1695513481199" duration="46000" />
       <workItem from="1695513547200" duration="766000" />
+      <workItem from="1695515269493" duration="785000" />
+      <workItem from="1695516140658" duration="208000" />
+      <workItem from="1695524239985" duration="1095000" />
+      <workItem from="1695612215350" duration="266000" />
     </task>
+    <task id="LOCAL-00001" summary=".xml&#10;&#10;Нужно ли добавить эти файлы в gitignore...?">
+      <option name="closed" value="true" />
+      <created>1695515363294</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1695515363294</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Добавлен комментарий&#10;&#10;Нужно ли модифицировать header p, или нужно просто обращаться к нужному элементу через id ?">
+      <option name="closed" value="true" />
+      <created>1695515785520</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1695515785520</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Переделано взаимодействие с цветом.&#10;&#10;Теперь все цвета доступны из root">
+      <option name="closed" value="true" />
+      <created>1695516329459</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1695516329459</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -82,5 +112,9 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/.." />
     </ignored-roots>
+    <MESSAGE value=".xml&#10;&#10;Нужно ли добавить эти файлы в gitignore...?" />
+    <MESSAGE value="Добавлен комментарий&#10;&#10;Нужно ли модифицировать header p, или нужно просто обращаться к нужному элементу через id ?" />
+    <MESSAGE value="Переделано взаимодействие с цветом.&#10;&#10;Теперь все цвета доступны из root" />
+    <option name="LAST_COMMIT_MESSAGE" value="Переделано взаимодействие с цветом.&#10;&#10;Теперь все цвета доступны из root" />
   </component>
 </project>
